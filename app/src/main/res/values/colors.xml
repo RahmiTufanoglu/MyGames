@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#651FFF</color>
+    <color name="colorPrimaryDark">#4223B1</color>
+    <color name="colorAccent">#7C4DFF</color>
+
+    <!--
+    <color name="colorPrimaryLight">#A788FF</color>
+    -->
+
+    <color name="xbox">#1D7C1F</color>
+    <color name="playstation">#004298</color>
+    <color name="nintendo">#FF151F</color>
+</resources>

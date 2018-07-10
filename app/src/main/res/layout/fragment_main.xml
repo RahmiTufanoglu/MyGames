@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/fragment_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="4">
+
+    <Button
+        android:id="@+id/btn_pc"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="4dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_weight="1"
+        android:background="@drawable/ripple_button_rounded_pc"
+        android:contentDescription="@string/btn_for_pc_games_cheats"
+        android:text="@string/pc"
+        android:theme="@style/PlatformButton" />
+
+    <Button
+        android:id="@+id/btn_xbox"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="4dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="4dp"
+        android:layout_weight="1"
+        android:background="@drawable/ripple_button_rounded_xbox"
+        android:contentDescription="@string/btn_for_xbox_games_cheats"
+        android:text="@string/xbox"
+        android:theme="@style/PlatformButton" />
+
+    <Button
+        android:id="@+id/btn_playstation"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="4dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="4dp"
+        android:layout_weight="1"
+        android:background="@drawable/ripple_button_rounded_playstation"
+        android:contentDescription="@string/btn_for_playstation_games_cheats"
+        android:text="@string/playstation"
+        android:theme="@style/PlatformButton" />
+
+    <Button
+        android:id="@+id/btn_nintendo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="4dp"
+        android:layout_weight="1"
+        android:background="@drawable/ripple_button_rounded_nintendo"
+        android:contentDescription="@string/btn_for_nintendo_games_cheats"
+        android:text="@string/nintendo"
+        android:theme="@style/PlatformButton" />
+
+</LinearLayout>

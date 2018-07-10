@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".main.MainActivity"
+    tools:ignore="AlwaysShowAction">
+
+    <item
+        android:id="@+id/action_menu_search"
+        android:icon="@drawable/ic_search_white"
+        android:title="@string/search"
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        app:showAsAction="always|collapseActionView" />
+
+    <item
+        android:id="@+id/action_menu_info"
+        android:title="@string/credits"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_menu_delete_all"
+        android:title="@string/delete_list"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_menu_sort"
+        android:title="@string/sort"
+        app:showAsAction="never">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/menu_release_date_sort"
+                    android:title="@string/sort_date" />
+                <item
+                    android:id="@+id/menu_alphabetical_sort"
+                    android:title="@string/sort_alphabetically" />
+                <item
+                    android:id="@+id/menu_shuffle"
+                    android:title="@string/shuffle" />
+            </group>
+        </menu>
+    </item>
+
+</menu>

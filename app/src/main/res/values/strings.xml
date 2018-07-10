@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MyGames</string>
+    <string name="btn_for_pc_games_cheats">ImageView for PC games cheats</string>
+    <string name="btn_for_xbox_games_cheats">ImageView for XBox games cheats</string>
+    <string name="btn_for_playstation_games_cheats">ImageView for Playstation games cheats</string>
+    <string name="btn_for_nintendo_games_cheats">ImageView for Nintendo games cheats</string>
+    <string name="nintendo">Nintendo</string>
+    <string name="playstation">Playstation</string>
+    <string name="xbox">Xbox</string>
+    <string name="pc">PC</string>
+
+    <string name="cheat_1">Cheat 1 %1$s %2$s</string>
+    <string name="cheat_2">Cheat 2 %1$s %2$s</string>
+    <string name="cheat_3">Cheat 3 %1$s %2$s</string>
+
+    <string name="placeholder">Placeholder</string>
+    <string name="back_to_homescreen">Press back again to reach the homescreen</string>
+    <string name="credits">Credits</string>
+    <string name="failed_request">Failed to execute request</string>
+    <string name="refreshing">Refreshing…</string>
+    <string name="device_not_connected">Device not connected to the internet</string>
+
+    <string name="platforms">Platforms</string>
+    <string name="favorites">Favorites</string>
+    <string name="title">Title:</string>
+
+    <string name="wiki">Wiki</string>
+    <string name="shop">Shop</string>
+
+    <string name="game_search">Search</string>
+    <string name="info"><b>Info</b></string>
+
+    <string name="made_by">Made by Team <b>ÖMER</b> in <b>FH Dortmund</b>.</string>
+
+    <string name="delete_all">Are you sure you want to <b>delete</b> all games?</string>
+    <string name="delete_game">Do you want to <b>delete</b> this game?</string>
+    <string name="nothing_to_delete">Nothing to delete.</string>
+    <string name="delete_complete">Deleted complete favorite list.</string>
+    <string name="nothing_to_sort">Nothing to sort!</string>
+    <string name="warning"><b>Warning!</b></string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="saved_to_favorites"> saved to favorites!</string>
+    <string name="already_in_list"> is already in the list!</string>
+
+    <string name="release">Release:</string>
+    <string name="deleted_from_favorites">deleted from favorites</string>
+    <string name="status_code">Status code</string>
+
+    <string name="search">Search</string>
+    <string name="sort">Sort</string>
+    <string name="empty_list">Empty list</string>
+    <string name="sort_date">Sort Date</string>
+    <string name="sort_alphabetically">Sort Alphabetically</string>
+    <string name="shuffle">Shuffle</string>
+    <string name="delete_list">Delete list</string>
+</resources>

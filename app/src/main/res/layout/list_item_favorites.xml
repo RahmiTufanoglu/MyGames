@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/tools"
+    android:id="@+id/list_item_card"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="4dp"
+    android:clickable="true"
+    android:focusable="true"
+    android:foreground="?android:attr/selectableItemBackground"
+    card_view:cardBackgroundColor="@android:color/transparent"
+    card_view:cardCornerRadius="4dp"
+    card_view:cardElevation="4dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/iv_card_game"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:adjustViewBounds="false"
+            android:contentDescription="@string/placeholder"
+            android:scaleType="fitXY" />
+
+        <TextView
+            android:id="@+id/tv_card_game_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="53"
+            android:adjustViewBounds="true"
+            android:maxLines="1"
+            android:padding="12dp"
+            android:singleLine="true"
+            android:text="@string/placeholder"
+            android:textColor="@android:color/tertiary_text_dark"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/iv_card_delete"
+            android:layout_width="35dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:adjustViewBounds="false"
+            android:contentDescription="@string/placeholder"
+            android:paddingBottom="15dp"
+            android:paddingEnd="5dp"
+            android:paddingStart="0dp"
+            android:paddingTop="15dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_clear_dark" />
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>
